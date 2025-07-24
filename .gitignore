@@ -1,3 +1,8 @@
 .idea
 .venv
 __pycache__
+
+output
+
+*_us.py
+*_2template.py
