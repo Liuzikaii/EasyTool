@@ -1,5 +1,7 @@
 import os
 
+from config import *
+
 def list_project_structure(root_dir, indent=''):
     """
     递归地列出指定目录下（项目）的文件和文件夹结构。
@@ -29,4 +31,4 @@ def list_project_structure(root_dir, indent=''):
         else:
             print(f"{indent}{'└── ' if is_last else '├── '}{item}")
 
-
+list_project_structure(root_dir=FILE_OPERATION_DIR)
